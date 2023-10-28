@@ -1,0 +1,111 @@
+.FormContainer {
+    max-width: 400px;
+    flex:2;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #fff;
+  
+}
+Title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.FormGroup{display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.Label{ 
+    margin-bottom: 5px;
+}
+.InputField { 
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+.EyeIcon {
+position: absolute;
+top: 62%;
+right: 10px;
+transform: translateY(-50%);
+cursor: pointer;
+color:#000;
+}
+.CheckboxesContainer {
+    display: flex;
+  flex-direction: column;
+  margin-bottom:10px;
+}
+  
+
+
+.CheckboxLabel{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.Checkbox {
+    
+  margin-right: 10px;
+}
+
+
+.SubmitButton{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block; 
+  text-align: center; }
+
+.SubmitButton:hover {
+    background: #ff4d4d;
+  }
+
+.TermsLink {
+  color: #FFA500;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left:6px;
+}
+.ChangePasswordLink {
+    color: #FFA500;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 5px;
+    display: block;
+}
+ 
+
+.RegisterLink {
+    color: orange;
+}
+  
+
+
+.CenteredText{ 
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+ 
+
+
+ 
+  
+ 
